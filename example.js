@@ -7,3 +7,15 @@ console.log(url1.href, url1.segments)
 url1.segments = ['hello', 'world', { specifiers: 'foo=bar' }]
 
 console.log(url1.href, url1.segments)
+
+url1.segments = [
+  '😘',
+  '/',
+  '[cheeky=breeky]',
+  {
+    name: 'hello world',
+    specifiers: new URLSearchParams('hello=world')
+  }
+]
+
+console.log(url1.href, url1.segments)

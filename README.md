@@ -20,4 +20,14 @@ ipld://bafytaffy/hello/world/[foo=bar]?hello=world [
   { name: 'world', specifiers: URLSearchParams {} },
   { name: '', specifiers: URLSearchParams { 'foo' => 'bar' } }
 ]
+ipld://bafytaffy/%F0%9F%98%98/%2F/%5Bcheeky%3Dbreeky%5D/[hello=world]hello%20world?hello=world [
+  { name: '', specifiers: URLSearchParams {} },
+  { name: '😘', specifiers: URLSearchParams {} },
+  { name: '/', specifiers: URLSearchParams {} },
+  { name: '[cheeky=breeky]', specifiers: URLSearchParams {} },
+  {
+    name: 'hello world',
+    specifiers: URLSearchParams { 'hello' => 'world' }
+  }
+]
 ```
