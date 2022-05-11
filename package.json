@@ -1,0 +1,19 @@
+{
+  "name": "ipld-url-playground",
+	"private" : true,
+  "description": "Messing around with IPLD URLs and different methods of escaping",
+  "main": "ipld-url.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/ipld-url-playground.git"
+  },
+  "author": "rangermauve <ranger@mauve.moe> (https://mauve.moe/)",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/ipld-url-playground/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/ipld-url-playground#readme"
+}
